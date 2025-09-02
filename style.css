@@ -709,14 +709,13 @@ ul.stiky {
     }
 
     nav a {
-        padding: 10px 12px;
+        padding: 10px 16px;
     }
 
     /* // Contact // */
     #contact-container .contact-content {
         flex-direction: column;
     }
-
     .contact-content .elsewhere,
     .contact-content .email {
         padding-bottom: 16px;
