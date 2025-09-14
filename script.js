@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 ///////////// Animation for Dashboard Loading /////////////
 // This forces the browser to scroll to the top-left corner //
-// window.addEventListener("load", () => {
-//     window.scrollTo(0, 0);
-// });
+window.addEventListener("load", () => {
+    window.scrollTo(0, 0);
+});
 
