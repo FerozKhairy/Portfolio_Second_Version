@@ -51,6 +51,9 @@ body {
     font-weight: 900;
 }
 
+.projectListDescription li {
+    padding: 5px 0;
+}
 
 /* =====> Dashboard <===== */
 /* Nvigation bar */
@@ -229,16 +232,16 @@ ul.stiky {
 .about-right-side .about-upper-text {
     display: flex;
     width: 100%;
-    padding-bottom: 40px;
+    padding-bottom: 22px;
     gap: 120px;
 }
 
 .about-upper-text h3 {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .about-upper-text p {
-    font-size: 16px;
+    font-size: 18px;
     color: var(--gray-color);
 }
 
@@ -278,10 +281,11 @@ ul.stiky {
     display: grid;
     gap: 0;
     grid-template-columns: repeat(2, 1fr);
-
+    place-items: center;
 }
 
 .experience-content .project {
+    width: 96%;
     padding: 12px;
     margin: 24px 0;
 }
@@ -316,6 +320,11 @@ ul.stiky {
 
 .description a:hover {
     background-color: #042d7f;
+}
+
+.description a i {
+    position: relative;
+    top: 2px;
 }
 
 /* =====> Contact <===== */
@@ -716,6 +725,7 @@ ul.stiky {
     #contact-container .contact-content {
         flex-direction: column;
     }
+
     .contact-content .elsewhere,
     .contact-content .email {
         padding-bottom: 16px;
